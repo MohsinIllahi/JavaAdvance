@@ -194,7 +194,7 @@ public class PatternsLogic {
         1
 
  */
-    static void pattern31(int n){
+    static void pattern17(int n){
         //rows
         for (int rows = 1; rows <= 2*n; rows++) {
             int columnsTotal = rows > n ? 2 * n - rows : rows;
@@ -214,4 +214,15 @@ public class PatternsLogic {
         }
     }
 
+    static void pattern31(int n) {
+        int originalN=n;
+        n = 2 * n-1;
+        for (int rows = 0; rows <= n; rows++) {
+            for (int column = 0; column <= n; column++) {
+                int whatNoToPrint =originalN - Math.min(Math.min(rows, column), Math.min(n - rows, n - column));
+                System.out.print(whatNoToPrint+" ");
+            }
+            System.out.println();
+        }
+    }
 }
