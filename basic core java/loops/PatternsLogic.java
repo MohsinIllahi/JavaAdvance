@@ -225,4 +225,23 @@ public class PatternsLogic {
             System.out.println();
         }
     }
+    static void patternDiamond(int n) {
+    //rows
+        for (int rows = 1; rows <= 2*n-1; rows++) {
+            int columnsTotal = rows > n ? 2 * n - rows : rows;
+            int totalSpaceCount=n-columnsTotal;
+            //space
+            for (int space = 1; space <= totalSpaceCount; space++) {
+                System.out.print("  ");
+                
+            }
+            for(int noLeft=columnsTotal;noLeft>=1;noLeft--){
+                System.out.print("* ");
+            }
+            for(int noRight=2;noRight<=columnsTotal;noRight++){
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+    }
 }

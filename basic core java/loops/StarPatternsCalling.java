@@ -11,7 +11,8 @@ public class StarPatternsCalling {
         // PatternsLogic.pattern28(5);
         // PatternsLogic.pattern30(5);
         // PatternsLogic.pattern17(5);
-        PatternsLogic.pattern31(4);
+        // PatternsLogic.pattern31(4);
+        PatternsLogic.patternDiamond(4);
 
 
     }
