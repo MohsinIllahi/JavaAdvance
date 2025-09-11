@@ -13,6 +13,6 @@ public static void main(String[] args) {
         number=number/10;
     }System.out.println(reverse);
 
-    //another method by converting it into char Array and using for loop
+    //another method by using for loop
 }
 }
