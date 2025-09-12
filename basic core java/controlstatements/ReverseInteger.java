@@ -14,5 +14,23 @@ public static void main(String[] args) {
     }System.out.println(reverse);
 
     //another method by using for loop
+    System.out.println("2nd method");
+    int reminder=0;
+    int reverseNumber=0;
+    int numbers=122;
+    for (int i = numbers; i >0; i/=10) {
+        reminder=i%10;
+        reverseNumber=reverseNumber*10+reminder;
+        System.out.println("in loop");
+    }
+    System.out.println(reverseNumber);
+    //third method
+      int orig = 123456789;   //assume > 0  
+    int num = 0;
+    for(int temp = orig;temp > 0;temp/=10)
+    {
+        num = num * 10 + temp % 10;
+    }
+    System.out.println(orig + " reversed is " + num);
 }
 }
