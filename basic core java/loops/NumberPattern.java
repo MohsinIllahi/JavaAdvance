@@ -1,4 +1,4 @@
-package loops;
+
 
 public class NumberPattern {
 static void pattern4(int n){

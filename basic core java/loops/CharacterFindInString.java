@@ -1,4 +1,4 @@
-package loops;
+
 
 public class CharacterFindInString {
     public static void main(String[] args) {

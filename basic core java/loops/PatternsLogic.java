@@ -1,4 +1,4 @@
-package loops;
+
 
 public class PatternsLogic {
     /* */
