@@ -8,8 +8,7 @@ public class Animal {
     public static void main(String[] args) {
         /*
          * In Java, Animal dog; declares a reference variable of type Animal.
-         * To create an actual object, we use the new keyword like this: dog = new
-         * Animal();.
+         * To create an actual object, we use the new keyword like this: dog = new Animal();.
          * This not only allocates memory for the object on the heap, but also calls the
          * constructor to initialize it.
          * The full expression Animal dog = new Animal(); both declares the reference

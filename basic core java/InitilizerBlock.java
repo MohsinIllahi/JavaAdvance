@@ -8,6 +8,7 @@ public class InitilizerBlock {
 }
 public static void main(String[] args) {
     InitilizerBlock object= new InitilizerBlock();
+    System.out.println(object instanceof Object);
     System.out.println("inside main method");
 }
 }
