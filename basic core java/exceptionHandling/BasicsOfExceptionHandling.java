@@ -1,7 +1,8 @@
 package exceptionHandling;
 
 public class BasicsOfExceptionHandling {
-    //exception is an unexpected event occur in between execution of our program
+    public static void main(String[] args) {
+        //exception is an unexpected event occur in between execution of our program
     //there are two types of exception in java 1. checked exception and 2. unchecked exception 
     //checked exception are exceptions which will be checked by compiler at the time of compilation 
     // compiler will ask to handle it before execution of program
@@ -25,7 +26,9 @@ public class BasicsOfExceptionHandling {
         //directly it will go to catch 
         //catch can be multiple with a try.
         //but it must follow like in first catch there should be child class of exception in 2nd catch so it must follow this thing 
-        
+
         e.printStackTrace();
     }
+    }
 }
+
