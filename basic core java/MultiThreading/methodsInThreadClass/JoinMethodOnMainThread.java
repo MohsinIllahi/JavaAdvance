@@ -9,7 +9,7 @@ public class JoinMethodOnMainThread
         t.start();
         for (int i = 0; i < 10; i++)
         {
-            System.out.println("Main Thraed");
+            System.out.println("Main Thread");
         }
     }
 }
@@ -27,7 +27,7 @@ class myThread extends Thread
             for (int i = 0; i < 10; i++)
             {
                 Thread.sleep(2000);
-                System.out.println("Child Thraed");
+                System.out.println("Child Thread");
             }
         } catch (InterruptedException e)
         {
