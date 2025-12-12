@@ -1,4 +1,3 @@
-package MultiThreading.methodsInThreadClass;
 
 public class JoinMethodDemo
 {

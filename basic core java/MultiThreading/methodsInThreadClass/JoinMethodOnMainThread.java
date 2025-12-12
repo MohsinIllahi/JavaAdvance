@@ -1,4 +1,4 @@
-package MultiThreading.methodsInThreadClass;
+
 
 public class JoinMethodOnMainThread
 {

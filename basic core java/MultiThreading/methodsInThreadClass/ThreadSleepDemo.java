@@ -1,4 +1,4 @@
-package MultiThreading.methodsInThreadClass;
+
 
 public class ThreadSleepDemo {
 public static void main(String[] args) throws InterruptedException {
