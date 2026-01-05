@@ -6,9 +6,9 @@ public class SyncronizationDemo
     {
         Display d = new Display();
         MyThreadCharacter tCharacter = new MyThreadCharacter(d);
-                MyThreadNumber tNumber = new MyThreadNumber(d);
-                tCharacter.start();
-                tNumber.start();
+        MyThreadNumber tNumber = new MyThreadNumber(d);
+        tCharacter.start();
+        tNumber.start();
 
     }
 }
