@@ -2,6 +2,7 @@ package syncronization;
 
 public class SyncronizationDemo
 {
+    //sync method demo
     public static void main(String[] args)
     {
         Display d = new Display();
@@ -15,7 +16,7 @@ public class SyncronizationDemo
 
 class Display
 {
-    public void displayNumber()
+    public synchronized void displayNumber()
     {
         for (int i = 0; i < 10; i++)
         {
@@ -30,7 +31,7 @@ class Display
         }
     }
 
-    public void displayCharacter()
+    public synchronized void displayCharacter()
     {
         for (int i = 65; i <= 75; i++)
         {
